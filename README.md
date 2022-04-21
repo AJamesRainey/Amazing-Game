@@ -1,3 +1,9 @@
 # Amazing-Game
 
-Is this working?
+Contributors: 
+Cruz Ceron, Lesliee
+Hanseul, Lee
+Menke, Aria
+Morris, Andrew
+Rainey, James
+
