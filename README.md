@@ -2,15 +2,15 @@
 
 Contributors: 
 
-Briskey, Steven
+Game Tester: Briskey, Steven
 
-Cruz Ceron, Lesliee
+Scheduler: Cruz Ceron, Lesliee
 
-Harger, Josey Michael
+Morale Czar: Harger, Josey Michael
 
-Menke, Aria
+Team Lead: Menke, Aria
 
-Morris, Andrew
+Storyboard Director: Morris, Andrew
 
-Rainey, James
+Configuration Manager: Rainey, James
 
