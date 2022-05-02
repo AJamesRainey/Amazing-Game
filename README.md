@@ -1,9 +1,16 @@
 # Amazing-Game
 
 Contributors: 
+
+Briskey, Steven
+
 Cruz Ceron, Lesliee
-Hanseul, Lee
+
+Harger, Josey Michael
+
 Menke, Aria
+
 Morris, Andrew
+
 Rainey, James
 
