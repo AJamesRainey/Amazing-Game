@@ -1,93 +1,43 @@
 """
-Arcade Platformer
-
-Demonstrating the capabilities of arcade in a platformer game
-Supporting the Arcade Platformer article
-at https://realpython.com/platformer-python-arcade/
-
-All game artwork from www.kenney.nl
-Game sounds and tile maps by author
+Amazing Game
 """
-
 import arcade
-import pathlib
-import constants as constants
+
+# Constants
+SCREEN_WIDTH = 1000
+SCREEN_HEIGHT = 650
+SCREEN_TITLE = "Platformer"
 
 
-# Assets path
-ASSETS_PATH = pathlib.Path(__file__).resolve().parent.parent / "assets"
+class MyGame(arcade.Window):
+    """
+    Main application class.
+    """
 
+    def __init__(self):
 
+        # Call the parent class and set up the window
+        super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
 
-class Platformer(arcade.Window):
-    def __init__(self) -> None:
-        super().__init__(constants.SCREEN_WIDTH, constants.SCREEN_HEIGHT, constants.SCREEN_TITLE)
-
-        # These lists will hold different sets of sprites
-        self.coins = None
-        self.background = None
-        self.walls = None
-        self.ladders = None
-        self.goals = None
-        self.enemies = None
-
-        # One sprite for the player, no more is needed
-        self.player = None
-
-        # We need a physics engine as well
-        self.physics_engine = None
-
-        # Someplace to keep score
-        self.score = 0
-
-        # Which level are we on?
-        self.level = 1
-
-        # Load up our sounds here
-        self.coin_sound = arcade.load_sound(
-            str(ASSETS_PATH / "sounds" / "coin.wav")
-        )
-        self.jump_sound = arcade.load_sound(
-            str(ASSETS_PATH / "sounds" / "jump.wav")
-        )
-        self.victory_sound = arcade.load_sound(
-            str(ASSETS_PATH / "sounds" / "victory.wav")
-        )
-
-
+        arcade.set_background_color(arcade.csscolor.CORNFLOWER_BLUE)
 
     def setup(self):
-        """Sets up the game for the current level"""
-        pass
-
-    def on_key_press(self, key: int, modifiers: int):
-        """Processes key presses
-
-        Arguments:
-            key {int} -- Which key was pressed
-            modifiers {int} -- Which modifiers were down at the time
-        """
-
-    def on_key_release(self, key: int, modifiers: int):
-        """Processes key releases
-
-        Arguments:
-            key {int} -- Which key was released
-            modifiers {int} -- Which modifiers were down at the time
-        """
-
-    def on_update(self, delta_time: float):
-        """Updates the position of all game objects
-
-        Arguments:
-            delta_time {float} -- How much time since the last call
-        """
+        """Set up the game here. Call this function to restart the game."""
         pass
 
     def on_draw(self):
-        pass
+        """Render the screen."""
 
-if __name__ == "__main__":
-    window = Platformer()
+        self.clear()
+        # Code to draw the screen goes here
+
+
+def main():
+    """Main function"""
+    window = MyGame()
     window.setup()
     arcade.run()
+
+
+if __name__ == "__main__":
+    main()
