@@ -19,6 +19,6 @@ Rainey, James- Configuration Manager
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
+* Integrating a created level
 * Item 2
-* Item 3
+* Item 
