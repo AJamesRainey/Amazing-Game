@@ -1,16 +1,24 @@
-# Amazing-Game
+Briskey, Steven- Quality Control
 
-Contributors: 
+Cruz Ceron, Lesliee- Scheduler
 
-Game Tester: Briskey, Steven
+Harger, Josey Michael- Morale Officer
 
-Scheduler: Cruz Ceron, Lesliee
+Menke, Aria- Game Lead
 
-Morale Czar: Briskey, Steven
+Morris, Andrew- Graphic Designer
 
-Team Lead: Menke, Aria
+Rainey, James- Configuration Manager
 
-Storyboard Director: Morris, Andrew
+# Useful Websites
 
-Configuration Manager: Rainey, James
+{Make a list of websites that you found helpful in this project}
+* Python arcade library (https://api.arcade.academy/en/latest/examples/platform_tutorial/index.html)
+* Tiled map editor (https://www.mapeditor.org/)
 
+# Future Work
+
+{Make a list of things that you need to fix, improve, and add in the future.}
+* Item 1
+* Item 2
+* Item 3
