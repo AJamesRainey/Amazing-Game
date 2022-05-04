@@ -6,7 +6,7 @@ Game Tester: Briskey, Steven
 
 Scheduler: Cruz Ceron, Lesliee
 
-Morale Czar: Harger, Josey Michael
+Morale Czar: Briskey, Steven
 
 Team Lead: Menke, Aria
 
